@@ -31,8 +31,8 @@ Ecommerce-Pipeline/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ecommerce-pipeline.git
-cd ecommerce-pipeline
+git clone https://github.com/your-username/Ecommerce-Pipeline.git
+cd Ecommerce-Pipeline
 ```
 
 ### 2. Start Services
@@ -41,21 +41,13 @@ cd ecommerce-pipeline
 docker-compose up -d
 ```
 
-### 3. Create ClickHouse Table
-
-Make sure `orders.sql` is present. Run:
-
-```bash
-clickhouse-client --host=localhost --user=default --password=mysecret < orders.sql
-```
-
-### 4. Simulate Orders
+### 3. Simulate Orders
 
 ```bash
 node sendEvent.js
 ```
 
-### 5. Consume and Insert into ClickHouse
+### 4. Consume and Insert into ClickHouse
 
 ```bash
 node consumeAndInsert.js
