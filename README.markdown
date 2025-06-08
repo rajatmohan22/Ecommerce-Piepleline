@@ -31,7 +31,7 @@ Ecommerce-Pipeline/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Ecommerce-Pipeline.git
+git clone https://github.com/rajatmohan22/Ecommerce-Pipeline.git
 cd Ecommerce-Pipeline
 ```
 
